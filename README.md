@@ -63,8 +63,6 @@ Motherboard, Windows and Mining Software Configuration
     * Settings > Advanced > PCI subsystem Setting: PEG 0 and PEG 1 set to Gen1
     * Above 4G Decoding (cryptocurrency mining) should be set to Enabled
     * Save and reboot
-3. OS / DRIVERS / MINING Setup:
-    1. Boot from USB install media
 
 ### Install OS
 
@@ -149,3 +147,11 @@ In my case the build is in cpp-thereum-master directory Run:
 ```
 
 Replacing your wallet id, and worker name with yours. But feel free to tip me in order to test results. 
+
+### Troubleshooting
+
+# Login-Loop:
+
+ * If you get stuck in the Ubuntu Login loop checkout `x-session-errors.log` accessible through [answer 2](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
+ 
+
