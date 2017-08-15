@@ -65,7 +65,12 @@ Motherboard, Windows and Mining Software Configuration
     * Save and reboot
 3. OS / DRIVERS / MINING Setup:
     1. Boot from USB install media
-    2. Ubuntu 17.04
+
+### Install OS
+
+ * [Download Ubuntu 17.04](https://www.ubuntu.com/download/desktop)
+ * If you are on a mac, create bootable USB with these [instructions](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-macos#0)
+ * boot your system type `delete` rappidly to enter BIOS mode. Toggle boot order to boot from USB. Save and restart.
 
 ### install cuda
 
