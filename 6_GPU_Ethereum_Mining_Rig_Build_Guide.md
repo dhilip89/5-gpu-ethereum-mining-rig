@@ -1,26 +1,49 @@
-# 6 GPU Ethereum Mining Rig Build Guide
+# ETHEREUM MINING
 
+### 6 GPU Ethereum Mining Rig Build Guide - (8-16 hours of work)
 
-Power Supply –  
+![Image of 6 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
 
- * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b) & 500 Watt Power Supply - You'll need two power supplies. Be very careful. Use electrical tape, do all work with the power supplies unplugged: [Video Instructions](https://youtu.be/xZiWciJLK3o)
+#### Power Supply 
 
- * Motherboard/CPU Combination – MSI Pro Z170A SLI Plus Motherboard |  Intel G3900 Dual Core CPU
+ * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b) & 500 Watt Power Supply - You'll need two power supplies. Be very careful. Use electrical tape, do all work with the power supplies unplugged. Note I do not warrent this video, I'm not an electrician so hire a professional. [Video Instructions](https://youtu.be/xZiWciJLK3o)
+
+#### Motherboard/CPU 
+
+ * MSI Pro Z170A SLI Plus Motherboard |  Intel G3900 Dual Core CPU
 ￼
+#### GPUs 
+
  * 6x Graphics Cards (GPUs) – Nvidia GTX 1070 – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
+
+#### RAM
 
  * RAM (System Memory) –  4 GB RAM – You don’t need a lot of system memory to mine ethereum effectively.
 
+#### GPU cables
+
  * [USB Riser Cables](https://www.amazon.com/MintCell-6-Pack-Powered-Adapter-Extension/dp/B01GU94QSQ/ref=pd_lpo_vtph_147_bs_t_1?_encoding=UTF8&psc=1&refRID=D0HP0K39ZVGXD997G2YN) –  (6 pack) USB Riser Cables – Used to connect the 6 graphics cards to the motherboard and allow spacing between cards for heat dissipation. These are necessary when building a rig with this many GPU’s.
+
+#### Hard Disk
 
  * 1x Hard Drive (SSD)  –  Solid State Drive  for installing operating system and your mining software.
 
+#### Rig Case
+
  * 1x Custom Mining Case –  I’d recommend an Open Air 6 GPU Mining Case.I’ve built several of these 6 GPU rigs for family and friends using this particular mining case works quite well for airflow and ease of building.
 
- * Power Button
+#### On/Off Switch
+
+ * [Power Button](https://www.amazon.com/gp/product/B01FM62DTC/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+
+#### Other stuff
+
  * Keyboard/Mouse/HDMI cable for montior
  * 8GB USB stick
  * [usb wifi adaptor ](https://www.amazon.com/gp/product/B00EQT0YK2/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1)
+
+
+# Build Guide 
 
 1. Un-package everything
 2. Build / assemble Open Air 6 GPU Mining Case
@@ -40,9 +63,22 @@ Motherboard, Windows and Mining Software Configuration
     * Settings > Advanced > PCI subsystem Setting: PEG 0 and PEG 1 set to Gen1
     * Above 4G Decoding (cryptocurrency mining) should be set to Enabled
     * Save and reboot
-3. OS / DRIVERS / MINING Setup:
-    1. Boot from USB install media
-    2. Ubuntu 17.04
+
+### Install OS
+
+ * [Download Ubuntu 17.04](https://help.ubuntu.com/community/InstallCDCustomization)
+ * If you are on a mac, create bootable USB with these [instructions](http://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/)
+ * boot your system type `delete` rappidly to enter BIOS mode. Toggle boot order to boot from USB. Save and restart.
+
+
+#### OS extras:
+
+ * open terminal:
+ ```
+ sudo apt install git
+ sudo apt-get update
+ sudo apt-get install vim
+ ```
 
 ### install cuda
 
@@ -121,3 +157,11 @@ In my case the build is in cpp-thereum-master directory Run:
 ```
 
 Replacing your wallet id, and worker name with yours. But feel free to tip me in order to test results. 
+
+### Troubleshooting
+
+#### Login-Loop:
+
+ * If you get stuck in the Ubuntu Login loop checkout `x-session-errors.log` accessible through [answer 2](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
+ 
+
