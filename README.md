@@ -150,7 +150,7 @@ Replacing your wallet id, and worker name with yours. But feel free to tip me in
 
 ### Troubleshooting
 
-# Login-Loop:
+#### Login-Loop:
 
  * If you get stuck in the Ubuntu Login loop checkout `x-session-errors.log` accessible through [answer 2](https://askubuntu.com/questions/223501/ubuntu-gets-stuck-in-a-login-loop)
  
