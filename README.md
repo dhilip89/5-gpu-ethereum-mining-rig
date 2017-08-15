@@ -143,9 +143,6 @@ watch -n0 nvidia-smi
 |    0      1111    G   /usr/lib/xorg/Xorg                             249MiB |
 |    0      1832    G   compiz                                         159MiB |
 +-----------------------------------------------------------------------------+
-
-
-sudo apt-get install vim
 ```
 
 Download [Ethminer](https://github.com/ethereum-mining/ethminer#build)
