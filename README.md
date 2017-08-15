@@ -1,12 +1,12 @@
 # ETHEREUM MINING
 
-### 6 GPU Ethereum Mining Rig Build Guide - (8-16 hours of work)
+### 4 GPU Ethereum Mining Rig Build Guide - (8-16 hours of work)
 
-![Image of 6 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
+![Image of 4 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
 
 #### Power Supply 
 
- * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b) & 500 Watt Power Supply - You'll need two power supplies. Be very careful. Use electrical tape, do all work with the power supplies unplugged. Note I do not warrent this video, I'm not an electrician so hire a professional. [Video Instructions](https://youtu.be/xZiWciJLK3o)
+ * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b)
 
 #### Motherboard/CPU 
 
