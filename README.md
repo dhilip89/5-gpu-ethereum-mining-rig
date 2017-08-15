@@ -2,6 +2,7 @@
 
 ### 6 GPU Ethereum Mining Rig Build Guide
 
+![Image of 6 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
 
 Power Supply –  
 
