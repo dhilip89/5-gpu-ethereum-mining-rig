@@ -4,37 +4,40 @@
 
 ![Image of 6 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
 
-Power Supply –  
+#### Power Supply 
 
  * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b) & 500 Watt Power Supply - You'll need two power supplies. Be very careful. Use electrical tape, do all work with the power supplies unplugged. Note I do not warrent this video, I'm not an electrician so hire a professional. [Video Instructions](https://youtu.be/xZiWciJLK3o)
 
-Motherboard/CPU –  
+#### Motherboard/CPU 
 
  * MSI Pro Z170A SLI Plus Motherboard |  Intel G3900 Dual Core CPU
 ￼
-GPUs – 
+#### GPUs 
 
  * 6x Graphics Cards (GPUs) – Nvidia GTX 1070 – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
 
-RAM -
+#### RAM
+
  * RAM (System Memory) –  4 GB RAM – You don’t need a lot of system memory to mine ethereum effectively.
 
-GPU cables -
+#### GPU cables
 
  * [USB Riser Cables](https://www.amazon.com/MintCell-6-Pack-Powered-Adapter-Extension/dp/B01GU94QSQ/ref=pd_lpo_vtph_147_bs_t_1?_encoding=UTF8&psc=1&refRID=D0HP0K39ZVGXD997G2YN) –  (6 pack) USB Riser Cables – Used to connect the 6 graphics cards to the motherboard and allow spacing between cards for heat dissipation. These are necessary when building a rig with this many GPU’s.
 
-Disk Space -
+#### Hard Disk
 
  * 1x Hard Drive (SSD)  –  Solid State Drive  for installing operating system and your mining software.
 
-Rig Case -
+#### Rig Case
 
  * 1x Custom Mining Case –  I’d recommend an Open Air 6 GPU Mining Case.I’ve built several of these 6 GPU rigs for family and friends using this particular mining case works quite well for airflow and ease of building.
 
-On/Off Switch -
+#### On/Off Switch
+
  * [Power Button](https://www.amazon.com/gp/product/B01FM62DTC/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
 
-Other stuff - 
+#### Other stuff
+
  * Keyboard/Mouse/HDMI cable for montior
  * 8GB USB stick
  * [usb wifi adaptor ](https://www.amazon.com/gp/product/B00EQT0YK2/ref=oh_aui_detailpage_o05_s00?ie=UTF8&psc=1)
