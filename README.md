@@ -5,7 +5,7 @@
 
 Power Supply –  
 
- * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b) & 500 Watt Power Supply - You'll need two power supplies. Be very careful. Use electrical tape, do all work with the power supplies unplugged: [Video Instructions](https://youtu.be/xZiWciJLK3o)
+ * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b) & 500 Watt Power Supply - You'll need two power supplies. Be very careful. Use electrical tape, do all work with the power supplies unplugged. Note I do not warrent this video, I'm not an electrician so hire a professional. [Video Instructions](https://youtu.be/xZiWciJLK3o)
 
 Motherboard/CPU –  
 
