@@ -70,6 +70,16 @@ Motherboard, Windows and Mining Software Configuration
  * If you are on a mac, create bootable USB with these [instructions](http://osxdaily.com/2015/06/05/copy-iso-to-usb-drive-mac-os-x-command/)
  * boot your system type `delete` rappidly to enter BIOS mode. Toggle boot order to boot from USB. Save and restart.
 
+
+#### OS extras:
+
+ * open terminal:
+ ```
+ sudo apt install git
+ sudo apt-get update
+ sudo apt-get install vim
+ ```
+
 ### install cuda
 
 exit ubuntu gui:
