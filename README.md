@@ -1,6 +1,6 @@
 # ETHEREUM MINING
 
-# 6 GPU Ethereum Mining Rig Build Guide
+### 6 GPU Ethereum Mining Rig Build Guide
 
 
 Power Supply –  
