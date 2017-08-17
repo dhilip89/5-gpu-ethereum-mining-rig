@@ -1,20 +1,20 @@
 # ETHEREUM MINING
 
-### 4 GPU Ethereum Mining Rig Build Guide - (8-16 hours of work)
+### 5 GPU Ethereum Mining Rig Build Guide - (8-16 hours of work)
 
-![Image of 4 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
+![Image of 5 GPU RIG](https://github.com/fogonthedowns/ethereum-guides/blob/master/images/rig.png)
 
 #### Power Supply 
 
- * [1000 Watt Power Supply](https://jet.com/product/CORSAIR-VALUE-SELECT-CP-9020084-NA-RM1000I-HIGH-PERFORMANCE-POWER/edec544f997f422eb943ce3b234cc68b)
+ * [1200 Watt Power Supply](https://jet.com/product/HXi-Series-HX1200i-High-Performance-ATX-Power-Supply/e525fd4b59e34b1fbe0cca46c412941b)
 
 #### Motherboard/CPU 
 
- * MSI Pro Z170A SLI Plus Motherboard |  Intel G3900 Dual Core CPU
+ * [MSI Pro Z170A SLI Plus Motherboard](https://jet.com/product/MSI-Desktop-Motherboard-Intel-Z170-Chipset-Socket-H4-LGA-1151-Z170A-PC-MATE/1fda8cbd10554b028bd7be07a44f9b41) |  [Intel G3900 Dual Core CPU](https://jet.com/product/Intel-Intel-Celeron-G3900-Skylake-Dual-Core-28-GHz-LGA-1151-65W-BX80662G3900-Des/57f74c89a7564b81914acb7afb723589)
 ￼
 #### GPUs 
 
- * 6x Graphics Cards (GPUs) – Nvidia GTX 1070 – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
+ * 5x Graphics Cards (GPUs) – Nvidia GTX 1070 – The efficient Nvidia GTX 1070 can produce 25Mh/s using only 150 watts of electricity.
 
 #### RAM
 
@@ -22,7 +22,7 @@
 
 #### GPU cables
 
- * [USB Riser Cables](https://www.amazon.com/MintCell-6-Pack-Powered-Adapter-Extension/dp/B01GU94QSQ/ref=pd_lpo_vtph_147_bs_t_1?_encoding=UTF8&psc=1&refRID=D0HP0K39ZVGXD997G2YN) –  (6 pack) USB Riser Cables – Used to connect the 6 graphics cards to the motherboard and allow spacing between cards for heat dissipation. These are necessary when building a rig with this many GPU’s.
+ * [USB Riser Cables](https://www.amazon.com/MintCell-6-Pack-Powered-Adapter-Extension/dp/B01GU94QSQ/ref=pd_lpo_vtph_147_bs_t_1?_encoding=UTF8&psc=1&refRID=D0HP0K39ZVGXD997G2YN) –  (5 pack) USB Riser Cables – Used to connect the 5 graphics cards to the motherboard and allow spacing between cards for heat dissipation. These are necessary when building a rig with this many GPU’s.
 
 #### Hard Disk
 
@@ -30,7 +30,7 @@
 
 #### Rig Case
 
- * 1x Custom Mining Case –  I’d recommend an Open Air 6 GPU Mining Case.I’ve built several of these 6 GPU rigs for family and friends using this particular mining case works quite well for airflow and ease of building.
+ * 1x Custom Mining Case –  I’d recommend an Open Air 5 GPU Mining Case.I’ve built several of these 5 GPU rigs for family and friends using this particular mining case works quite well for airflow and ease of building.
 
 #### On/Off Switch
 
@@ -46,7 +46,7 @@
 # Build Guide 
 
 1. Un-package everything
-2. Build / assemble Open Air 6 GPU Mining Case
+2. Build / assemble Open Air 5 GPU Mining Case
 3. Install processor and RAM on motherboard
 4. Plug in all riser cables
 5. Place motherboard in custom open air mining rig case and connect motherboard PSU connector (leaving PSU unplugged from the wall of course)
@@ -79,6 +79,14 @@ Motherboard, Windows and Mining Software Configuration
  sudo apt-get update
  sudo apt-get install vim
  ```
+
+### Update Bios
+
+1. [Download bios update](https://us.msi.com/Motherboard/support/Z170A-PC-MATE.html#support_download)
+2. Move file to USB drive
+3. restart computer, press `delete` to enter bios mode
+4. Select `M-Flash` to update from USB drive
+
 
 ### install cuda
 
